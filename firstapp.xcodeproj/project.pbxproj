@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3805AAE218B355E800823CB6 /* MakeToDoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3805AAE118B355E800823CB6 /* MakeToDoListViewController.m */; };
+		3805AAE418B3573300823CB6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3805AAE318B3573300823CB6 /* Storyboard.storyboard */; };
 		38449EA318B24B1F00FED19B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38449EA218B24B1F00FED19B /* Foundation.framework */; };
 		38449EA518B24B1F00FED19B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38449EA418B24B1F00FED19B /* CoreGraphics.framework */; };
 		38449EA718B24B1F00FED19B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38449EA618B24B1F00FED19B /* UIKit.framework */; };
 		38449EAD18B24B1F00FED19B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38449EAB18B24B1F00FED19B /* InfoPlist.strings */; };
 		38449EAF18B24B1F00FED19B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38449EAE18B24B1F00FED19B /* main.m */; };
 		38449EB318B24B1F00FED19B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38449EB218B24B1F00FED19B /* AppDelegate.m */; };
-		38449EB618B24B1F00FED19B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38449EB418B24B1F00FED19B /* Main.storyboard */; };
 		38449EB918B24B1F00FED19B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38449EB818B24B1F00FED19B /* MasterViewController.m */; };
-		38449EBC18B24B1F00FED19B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38449EBB18B24B1F00FED19B /* DetailViewController.m */; };
 		38449EBE18B24B1F00FED19B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38449EBD18B24B1F00FED19B /* Images.xcassets */; };
 		38449EC518B24B1F00FED19B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38449EC418B24B1F00FED19B /* XCTest.framework */; };
 		38449EC618B24B1F00FED19B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38449EA218B24B1F00FED19B /* Foundation.framework */; };
 		38449EC718B24B1F00FED19B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38449EA618B24B1F00FED19B /* UIKit.framework */; };
 		38449ECF18B24B1F00FED19B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38449ECD18B24B1F00FED19B /* InfoPlist.strings */; };
 		38449ED118B24B1F00FED19B /* firstappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38449ED018B24B1F00FED19B /* firstappTests.m */; };
+		3898CA5918B3530C00018D29 /* AddToDoItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3898CA5818B3530C00018D29 /* AddToDoItemsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3805AAE018B355E800823CB6 /* MakeToDoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeToDoListViewController.h; sourceTree = "<group>"; };
+		3805AAE118B355E800823CB6 /* MakeToDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeToDoListViewController.m; sourceTree = "<group>"; };
+		3805AAE318B3573300823CB6 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		38449E9F18B24B1F00FED19B /* firstapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38449EA218B24B1F00FED19B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		38449EA418B24B1F00FED19B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,17 +49,16 @@
 		38449EB018B24B1F00FED19B /* firstapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "firstapp-Prefix.pch"; sourceTree = "<group>"; };
 		38449EB118B24B1F00FED19B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		38449EB218B24B1F00FED19B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		38449EB518B24B1F00FED19B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38449EB718B24B1F00FED19B /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		38449EB818B24B1F00FED19B /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		38449EBA18B24B1F00FED19B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		38449EBB18B24B1F00FED19B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		38449EBD18B24B1F00FED19B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		38449EC318B24B1F00FED19B /* firstappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38449EC418B24B1F00FED19B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		38449ECC18B24B1F00FED19B /* firstappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "firstappTests-Info.plist"; sourceTree = "<group>"; };
 		38449ECE18B24B1F00FED19B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		38449ED018B24B1F00FED19B /* firstappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstappTests.m; sourceTree = "<group>"; };
+		3898CA5718B3530C00018D29 /* AddToDoItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToDoItemsViewController.h; sourceTree = "<group>"; };
+		3898CA5818B3530C00018D29 /* AddToDoItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoItemsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +120,13 @@
 			children = (
 				38449EB118B24B1F00FED19B /* AppDelegate.h */,
 				38449EB218B24B1F00FED19B /* AppDelegate.m */,
-				38449EB418B24B1F00FED19B /* Main.storyboard */,
+				3805AAE318B3573300823CB6 /* Storyboard.storyboard */,
+				3805AAE018B355E800823CB6 /* MakeToDoListViewController.h */,
+				3805AAE118B355E800823CB6 /* MakeToDoListViewController.m */,
+				3898CA5718B3530C00018D29 /* AddToDoItemsViewController.h */,
+				3898CA5818B3530C00018D29 /* AddToDoItemsViewController.m */,
 				38449EB718B24B1F00FED19B /* MasterViewController.h */,
 				38449EB818B24B1F00FED19B /* MasterViewController.m */,
-				38449EBA18B24B1F00FED19B /* DetailViewController.h */,
-				38449EBB18B24B1F00FED19B /* DetailViewController.m */,
 				38449EBD18B24B1F00FED19B /* Images.xcassets */,
 				38449EA918B24B1F00FED19B /* Supporting Files */,
 			);
@@ -235,7 +240,7 @@
 			files = (
 				38449EBE18B24B1F00FED19B /* Images.xcassets in Resources */,
 				38449EAD18B24B1F00FED19B /* InfoPlist.strings in Resources */,
-				38449EB618B24B1F00FED19B /* Main.storyboard in Resources */,
+				3805AAE418B3573300823CB6 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,9 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				38449EB318B24B1F00FED19B /* AppDelegate.m in Sources */,
+				3805AAE218B355E800823CB6 /* MakeToDoListViewController.m in Sources */,
 				38449EB918B24B1F00FED19B /* MasterViewController.m in Sources */,
 				38449EAF18B24B1F00FED19B /* main.m in Sources */,
-				38449EBC18B24B1F00FED19B /* DetailViewController.m in Sources */,
+				3898CA5918B3530C00018D29 /* AddToDoItemsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,14 +292,6 @@
 				38449EAC18B24B1F00FED19B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		38449EB418B24B1F00FED19B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38449EB518B24B1F00FED19B /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		38449ECD18B24B1F00FED19B /* InfoPlist.strings */ = {
@@ -466,6 +464,7 @@
 				38449ED618B24B1F00FED19B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38449ED718B24B1F00FED19B /* Build configuration list for PBXNativeTarget "firstappTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +473,7 @@
 				38449ED918B24B1F00FED19B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
